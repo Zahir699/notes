@@ -1,8 +1,11 @@
 1. Connecting to a MySQL database
 ```
-mysql -u <user> -h <ip of database>
+mysql -u <user> -h <ip of database or database hostname>
 -h : Connect to host.
 -u : User for log-in if not current user.
+
+mysql --host=db --user=root --password=root
+mysql -h db -u root -proot
 
 ====================================================================
 <<<<<<<<<<<<<<<<<<<<<<<<Navigating the databse>>>>>>>>>>>>>>>>>>>>>
